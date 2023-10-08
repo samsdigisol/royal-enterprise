@@ -14,11 +14,3 @@ function getQuote(ser){
     var url = "https://wa.me/+919823891852?text=I%20Want%20To%20Know%20More%20About%20+"+ser;
     window.open(url , "_blank");
 }
-function scrollSer(){
-    const scrollDiv = document.getElementsById("ser");
-    scrollDiv.scrollIntoView();
-}
-function scrollCon(){
-    const scrollDiv = document.getElementById("con");
-    scrollDiv.scrollIntoView();
-}
